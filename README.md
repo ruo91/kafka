@@ -30,6 +30,7 @@ Follow instuctions in http://kafka.apache.org/documentation.html#quickstart
     ./gradlew clean
     ./gradlew releaseTarGz -x signArchives
 
+https://issues.apache.org/jira/browse/KAFKA-1297
 The release file can be found inside ./core/build/distributions/.
 
 ### Cleaning the build ###
