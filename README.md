@@ -28,7 +28,7 @@ Follow instuctions in http://kafka.apache.org/documentation.html#quickstart
 
 ### Building a binary release gzipped tar ball ###
     ./gradlew clean
-    ./gradlew releaseTarGz  
+    ./gradlew releaseTarGz -x signArchives
 
 The release file can be found inside ./core/build/distributions/.
 
